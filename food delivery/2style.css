@@ -80,28 +80,31 @@ a{
     background-color: #FC8A06;
 
 }
+.right-img{
+    height: 455px;
+    width: 377px;
+    position: absolute;
+    left: -12px;
+    bottom: 0;
+}
+.center-img{
+    height: 537px;
+    position: absolute;
+    bottom: 0;
+    left: 350px;
+}
+
 .pic1{
     position: absolute;
     left: -12px;
     bottom: 0;
 
 }
-.imag{
-    width: 805px;
-    height: 537px;
 
-}
 .card1{
     position: absolute;
     height: 127px;
     width: 390px;
-}
-.centr{
-    inset: 0;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    position: absolute;
 
 }
 
@@ -169,6 +172,30 @@ a{
     width: 238px;
     height: 203px;
     border-radius: 15px;
+}
+.company{
+      margin: 0 auto;
+    padding: 15px;
+    font-size: 32px;
+    font-weight: 700;
+    width: 1528px;
+    display: flex;
+    align-items: center;
+   gap: 15px;   
+
+}
+.comp-lofo{
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: 700;
+    width: 1528px;
+}
+
+.piss{
+    width: 238px;
+    height: 203px;
+    border-radius: 15px;
+
 }
 
 
