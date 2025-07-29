@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    height: 100vh;
+}
+img{
+    height: 200px;
+    width: 100%;
+   object-fit: cover;
+}
+.container{
+    border-radius: 10px;
+    background-color:white(255, 255, 255);
+width: 400px;
+overflow: hidden;
+border: 1px,solid black;
+}
+.subpart{
+    background-color:blue;
+    align-items: center;
+
+}
+p{
+    padding: 10px;
+    margin: left 10px;
+}

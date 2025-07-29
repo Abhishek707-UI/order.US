@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 800;
+    color: blue;
+}
+.link{
+    display: flex;
+    gap: 40px;
+    color: black;
+    flex-wrap: wrap;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    flex-wrap: wrap;
+    padding-inline-start: 20px;
+    background-color: wheat;
+}
+.text{
+
+    font-size: 35px;
+}

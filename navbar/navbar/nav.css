@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    
+}
+.logo{ 
+    border-radius: 50px;
+    color: rgb(9, 133, 240);
+    padding-left: 5px;
+    margin-left: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 20px;
+ 
+   
+}
+.sub{
+      color: aliceblue;
+    padding-left: 55px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: 10px;
+}
+
+
+

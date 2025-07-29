@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid design</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 77%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+        }
+        .main{
+            display: grid;
+            height: 600px;
+            width: 700px;
+            gap: 15px;
+            grid-template-columns:repeat(3,calc(100%/2));   
+        }
+        .child{
+            height: 100%;
+            width: 100%;
+            border-radius: 15px;
+            border: 1px solid rgba(240, 229, 229, 0.801);
+            background-color: rgba(240, 229, 229, 0.905);
+            overflow: hidden;
+            transition: all 400ms ease;
+        }
+        .child:nth-child(1){
+            grid-row: span 2 / span 2;  
+        }
+        .child:nth-child(2){
+            grid-column: span 2 / span 2;  
+        }
+        .pic{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            object-fit: cover;
+            transition: all 400ms ease-in-out;
+        }
+        .pic1{
+            height: 200px;
+            width: 100%;
+            border-radius: 10px; 
+        }
+        .txt{
+            margin: 05px;
+           padding: 15px 15px;
+            color:rgb(14, 14, 14);
+        }
+        .pic2{
+            height: 200px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .pic3{
+            height: 145px;
+            width: 100%;
+           border-radius: 10px;  
+        }
+        .t1{
+            font-size: 25px;
+            font-weight: 400;
+        }
+        .pic1:hover{
+            transform: scale(1.1);
+        }
+        .txt:hover{
+            padding-left: 55px;
+        }
+         .pic2:hover{
+            transform: scale(1.1);
+        }
+        .pic3:hover{
+            transform: scale(1.1);
+        }
+        .pic4:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="child">
+            <div class="pic">
+                <img class="pic1"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyfgme0bCz7q2v234iyxCHgh_qAzmMTQz81Q&s" alt="">
+            </div>
+            <div class="txt">
+                <p class="t1">Name</p><br>
+                <p>A luxury car is a fancy, high-end vehicle that comes with extra comfort and additional top-notch features, giving it a more premium feel to the end customer</p></div>
+        </div>
+        <div class="child">
+            <div class="pic">
+                <img class="pic2"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNA42lBTbkEcobDtBYphJBAmVQly2qC8fZTw&s" alt="">
+            </div>
+            <div class="txt"><p class="t1">Name</p>
+                <p>A luxury car is a fancy, high-end vehicle that comes with extra comfort and additional top-notch features, giving it a more premium feel to the end customer</p></div>
+        </div>
+        <div class="child">  
+            <div class="pic">
+                <img class="pic3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm33JGJ_TCeLF5XmraupKrXaeBdW-JXjfdJg&s" alt="">
+            </div>
+            <div class="txt"><p class="t1">Name</p>
+                <p>A luxury car is a fancy, high-end vehicle that comes with extra comfort and additional top-notch features, giving it a more premium feel to the end customer</p></div>
+        </div>
+        <div class="child">
+              <div class="pic">
+                <img class="pic3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkizXtExZa7pRg_x_zP1Odiqqd3TcvN3Qaqw&s" alt="">
+            </div>
+            <div class="txt"><p class="t1">Name</p>
+                <p>A luxury car is a fancy, high-end vehicle that comes with extra comfort and additional top-notch features, giving it a more premium feel to the end customer</p></div>
+        </div>
+    </div>
+</body>
+</html>

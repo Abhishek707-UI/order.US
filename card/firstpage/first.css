@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: aquamarine;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+.subnav{
+    display: flex;
+    padding-left: 20px;
+    white-space: 10px;
+    font-size: 18px;
+    margin: 10px;
+}
+.about img{
+     height: 150px;
+    width: 100px;
+    padding: 10px;
+
+}
+.list img{
+    height: 150px;
+    width: 100px;
+    padding: 10px;
+    
+}
+.review img{
+    height: 150px;
+    width: 100px;
+    padding: 10px;
+
+}
+h4{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}
+

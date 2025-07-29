@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 300vh;
+            display: flex;
+            justify-content: center;
+        }
+        .navbaar{
+            height: 40px;
+            width: 100%;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 10px;
+            border-radius: 20px;
+            color: #16a34a;
+            background-color:#fafafa;
+            transition: all 400ms ease-in-out;
+        }
+        .logo{
+            font-size: 45px;
+            font-weight: 900;
+        }
+        .link{
+            text-decoration: none;
+            padding: 25px;
+            color: rgb(1, 1, 1);
+        }
+        button{
+            font-weight: 700;
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: 2px silid rgba(255, 255, 255, 0.951);
+            color: white;
+            background-color:#16a34a;
+            
+        }
+        .fixed{
+            height: 40px;
+            width: 100px;
+            top: 680px;
+            left: 0;
+            padding: 05px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            justify-content: center;
+            background-color:#fafafa;
+        }
+        .logo:hover{
+            transform: scale(1.1);
+            color: #24d966;  
+        }
+        .link:hover{
+            text-decoration: underline;
+            text-decoration-color:#24d966;
+            transform: scaleX(1);
+        }
+        button:hover{
+            transform: scale(0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbaar">
+        <div class="logo">Logo
+        </div>
+        <div >
+            <a href="#" class="link">Home</a>
+             <a href="#" class="link">About</a>
+             <a href="#" class="link">Contact</a>
+             <button>INFO.</button>
+        </div>
+    </div>
+    <div class="fixed"> Abhi</div>
+    
+</body>
+</html>

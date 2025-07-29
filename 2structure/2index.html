@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .main{
+            height: 100vh;
+            border: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .child{
+            height: 100px;
+            width: 100px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+        }
+        .subchild{
+            height: 50px;
+            width: 50px;
+            background-color: rgb(232, 222, 222);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+            <div class="child"></div>
+             <div class="child"> 
+                <div class="subchild"></div>
+             </div>
+            <div class="child"></div>
+      
+    </div>
+    
+</body>
+</html>
