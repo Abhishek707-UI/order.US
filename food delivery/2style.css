@@ -87,7 +87,9 @@ a{
 
 }
 .imag{
-transform:translateY(4px) ;
+    width: 805px;
+    height: 537px;
+
 }
 .card1{
     position: absolute;
@@ -122,20 +124,6 @@ transform:translateY(4px) ;
     font-weight: 600;
     color: #03081F;
 }
-/*offer
-.offer{
-    
-    height: 428px;
-    width: 1528px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    font-size: 32px;
-    font-weight: 600;
-    border:1px solid black;
-
-}
-*/
 .offer{
     margin: 0 auto;
     font-size: 32px;
@@ -154,26 +142,33 @@ transform:translateY(4px) ;
 .pc{
     height: 325px;
     width: 496px;
-    border:1px solid black;
+}
+.pcp{
+     height: 325px;
+    width: 496px;
+    border-radius: 15px;
 }
 .category{
     margin: 0 auto;
+    padding: 15px;
     font-size: 32px;
     font-weight: 700;
     width: 1528px;
-    border:1px solid black;
+    display: flex;
+    align-items: center;
+   gap: 20px;
+    
 }
-.pci{ 
-   display: flex;
-   justify-content: center;
-   flex-direction: row;
-   
-  
-
+.dish-pic{
+     margin: 0 auto;
+    font-size: 32px;
+    font-weight: 700;
+    width: 1528px;
 }
 .pis{
     width: 238px;
     height: 203px;
+    border-radius: 15px;
 }
 
 
