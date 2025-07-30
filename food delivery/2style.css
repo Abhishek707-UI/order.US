@@ -86,6 +86,8 @@ a{
     position: absolute;
     left: -12px;
     bottom: 0;
+    border-radius: 15px;
+    object-fit: cover;
 }
 .center-img{
     height: 537px;
@@ -206,7 +208,6 @@ a{
     justify-content: end;
     align-items: end;
     background-color: #EEEEEE;
-    border: 1px solid black;
 }
 .pp{
     height: 641px;
@@ -214,6 +215,7 @@ a{
     position: relative;
     bottom: 0;
     left:0;
+    z-index: 998;
 }
 .right-div{
     
@@ -228,7 +230,7 @@ a{
 .go{
     height: 66px;
     width: 288px;
-    
+
 }
 .ab{
     height: 90px;
@@ -263,5 +265,72 @@ a{
     color: white;
     font-family: "Poppins", sans-serif;
     border-radius: 10px;
+}
+.div2{
+    padding: 20px;
+    margin: 0 auto;
+    height: 425px;
+    width: 1528px;
+    display: grid;
+    grid-template-columns: repeat(2, calc(100%/2) );
+    gap: 8px;
+    
+    overflow: hidden;
+}
+.chid2{
+    height: 425px;
+    position: relative;
+}
+.liv{
+    height: 425px;
+    width: 762px;
+    
+    border-radius: 15px;
+    object-fit: cover;
+}
+.liv-txt1{
+    font-size: 18px;
+    font-weight: 700;
+     position: absolute;
+    left: 50px;
+    top:0;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    color:#03081F;
+    border-radius: 0px 0px 15px 15px;
+    background-color: white;
+
+}
+.liv-txt2{
+    bottom: 200px;
+    left : 50px;
+    position: absolute;
+}
+.li-txt{
+    height: 35px;
+    width: 263px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #FC8A06;
+
+}
+.tt{
+    height: 47px;
+    width: 485px;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+}
+.get-st{
+    position: relative;
+    bottom: 150px;
+    left : 50px;
+    height: 52px;
+    width: 205px;
+    border-radius: 99px;
+    border: 1px solid #FC8A06;
+    background-color: #FC8A06;
 }
 
