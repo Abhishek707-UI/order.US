@@ -333,4 +333,35 @@ a{
     border: 1px solid #FC8A06;
     background-color: #FC8A06;
 }
+.last{
+    margin: 0 auto;
+    width: 1528px;
+    height: 158px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, calc(100%/4));
+    background-color: #FC8A06; 
+    padding: 40px 0;  
+}
+.box{
+    padding: 20px;
+    font-size: 30px;
+ 
+    color: #EEEEEE;
+    font-weight: 300;
+    border-right: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sam{
+    font-size: 64px;
+    font-weight: 300;
+}
+.same{
+    font-size: 24px;
+    font-weight: 700;
+
+}
 
