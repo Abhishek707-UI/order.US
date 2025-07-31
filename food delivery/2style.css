@@ -137,6 +137,7 @@ a{
     font-size: 32px;
     font-weight: 600;
     width: 1528px;
+      font-family: "Poppins", sans-serif;
     padding-top: 35px;
    
 }
@@ -155,6 +156,7 @@ a{
 .pcp{
      height: 325px;
     width: 496px;
+    object-fit: cover;
     border-radius: 15px;
 }
 .category{
@@ -173,10 +175,12 @@ a{
     font-size: 32px;
     font-weight: 700;
     width: 1528px;
+      font-family: "Poppins", sans-serif;
 }
 .pis{
     width: 238px;
     height: 203px;
+    object-fit: cover;
     border-radius: 15px;
 }
 .company{
@@ -195,6 +199,7 @@ a{
     font-size: 32px;
     font-weight: 700;
     width: 1528px;
+      font-family: "Poppins", sans-serif;
 }
 
 .piss{
@@ -446,12 +451,11 @@ a{
 .sb-ft{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 .ft-links{ height: 23px;
     width: 655px;
     display: flex;
-    padding: 0 20px;
     justify-content: space-between;
     align-items: center;
 
