@@ -132,6 +132,30 @@ a{
     font-weight: 600;
     color: #03081F;
 }
+.btm{
+    height: 57px;
+    width: 373px;
+    padding-left: 20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     border-radius: 999px;
+    border: 1px solid rgb(98, 97, 97);
+}
+.hro{
+    height: 57px;
+    width: 187px;
+    border: 1px solid #FC8A06;
+    background-color: #FC8A06;
+    border-radius: 999px;
+}
+.input{
+    padding: 5px 0;
+    border: none;
+}
+.input:focus{
+    outline: none;
+}
 .offer{
     margin: 0 auto;
     font-size: 32px;
@@ -451,7 +475,8 @@ a{
 .sb-ft{
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+    padding: 20px;   
 }
 .ft-links{ height: 23px;
     width: 655px;
@@ -465,6 +490,7 @@ a{
     color: #D9D9D9;
     font-size: 15px;
     font-weight: 600;
+    padding: 16px;
     font-family: "Poppins", sans-serif;
 }
 
